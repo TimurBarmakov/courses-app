@@ -1,0 +1,224 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Основы Python",
+        "author": "Джери Джери",
+        "duration": "2 часа",
+        "level": "Легкий",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Введение в Python",
+            "description": "Основы синтаксиса Python.",
+            "duration": "2 часа",
+            "content": [
+              {
+                "type": "text",
+                "value": "Python — это высокоуровневый язык программирования, который использует читаемый синтаксис."
+              },
+              {
+                "type": "video",
+                "value": "https://www.youtube.com/watch?v=rfscVS0vtbw"
+              },
+              {
+                "type": "code",
+                "value": "print('Hello, World!')"
+              }
+            ],
+            "tasks": [
+              {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "Какой оператор используется для сравнения в Python?",
+                "options": ["=", "==", "<>", "!="],
+                "correctAnswer": "=="
+              },
+              {
+                "id": 2,
+                "type": "coding",
+                "question": "Напишите функцию, которая возвращает сумму двух чисел.",
+                "correctAnswer": "def add(a, b): return a + b"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Основы JavaScript",
+        "author": "Тим Джонс",
+        "duration": "3 часа",
+        "level": "Средний",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Введение в JavaScript",
+            "description": "Основы синтаксиса JavaScript.",
+            "duration": "2 часа",
+            "content": [
+              {
+                "type": "text",
+                "value": "JavaScript — это язык программирования, который используется для создания динамических веб-страниц."
+              },
+              {
+                "type": "video",
+                "value": "https://www.youtube.com/watch?v=W6NZfCO5SIk"
+              },
+              {
+                "type": "code",
+                "value": "console.log('Hello, World!');"
+              }
+            ],
+            "tasks": [
+              {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "Какой оператор используется для присваивания в JavaScript?",
+                "options": ["=", "==", "==="],
+                "correctAnswer": "="
+              },
+              {
+                "id": 2,
+                "type": "coding",
+                "question": "Напишите функцию, которая возвращает произведение двух чисел.",
+                "correctAnswer": "function multiply(a, b) { return a * b; }"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Основы HTML",
+        "author": "Сара Уильямс",
+        "duration": "1.5 часа",
+        "level": "Легкий",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Основы HTML",
+            "description": "Основы структуры веб-страниц с использованием HTML.",
+            "duration": "1.5 часа",
+            "content": [
+              {
+                "type": "text",
+                "value": "HTML (HyperText Markup Language) — это стандартный язык разметки для документов, предназначенных для отображения в веб-браузерах."
+              },
+              {
+                "type": "video",
+                "value": "https://www.youtube.com/watch?v=UB1O30fR-EE"
+              },
+              {
+                "type": "code",
+                "value": "<h1>Заголовок</h1>"
+              }
+            ],
+            "tasks": [
+              {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "Какой тег используется для заголовка первого уровня в HTML?",
+                "options": ["<h1>", "<h2>", "<p>", "<header>"],
+                "correctAnswer": "<h1>"
+              },
+              {
+                "id": 2,
+                "type": "coding",
+                "question": "Напишите HTML-код для отображения абзаца.",
+                "correctAnswer": "<p>Ваш текст здесь</p>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Основы CSS",
+        "author": "Лиза Тейлор",
+        "duration": "2 часа",
+        "level": "Средний",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Основы CSS",
+            "description": "Как стилизовать веб-страницы с использованием CSS.",
+            "duration": "2 часа",
+            "content": [
+              {
+                "type": "text",
+                "value": "CSS (Cascading Style Sheets) — это язык, предназначенный для описания внешнего вида документа, написанного с использованием HTML."
+              },
+              {
+                "type": "video",
+                "value": "https://www.youtube.com/watch?v=1Rs2ND1ryYc"
+              },
+              {
+                "type": "code",
+                "value": "body { background-color: lightblue; }"
+              }
+            ],
+            "tasks": [
+              {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "Какой стиль используется для изменения фона страницы в CSS?",
+                "options": ["background-color", "color", "font-size", "margin"],
+                "correctAnswer": "background-color"
+              },
+              {
+                "id": 2,
+                "type": "coding",
+                "question": "Напишите CSS-код для изменения цвета текста на красный.",
+                "correctAnswer": "color: red;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Основы React",
+        "author": "Питер Хенсон",
+        "duration": "3 часа",
+        "level": "Средний",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Введение в React",
+            "description": "Основы создания компонентов в React.",
+            "duration": "2.5 часа",
+            "content": [
+              {
+                "type": "text",
+                "value": "React — это библиотека JavaScript для создания пользовательских интерфейсов, используемая для создания одностраничных приложений."
+              },
+              {
+                "type": "video",
+                "value": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
+              },
+              {
+                "type": "code",
+                "value": "import React from 'react';\n\nfunction App() {\n  return <h1>Hello, React!</h1>;\n}\n\nexport default App;"
+              }
+            ],
+            "tasks": [
+              {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "Какой метод используется для рендеринга компонента в React?",
+                "options": ["render()", "ReactDOM.render()", "createElement()", "mount()"],
+                "correctAnswer": "ReactDOM.render()"
+              },
+              {
+                "id": 2,
+                "type": "coding",
+                "question": "Напишите React-компонент, который отображает 'Hello, World!'",
+                "correctAnswer": "function Hello() { return <h1>Hello, World!</h1>; }"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
